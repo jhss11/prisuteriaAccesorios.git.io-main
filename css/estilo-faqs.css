@@ -1,0 +1,49 @@
+.accordion {
+    margin: 40px auto;
+    width: 1000px;
+    margin-left: 0; 
+}
+
+.accordion li {
+    list-style: none;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px;
+    background-color: #857c7c;
+}
+
+.accordion li label {
+    display: flex;
+    padding: 10px;
+    font-size: 20px;
+}
+
+label::before {
+    content: '+';
+    margin-right: 10px;
+    font-size: 24px;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.accordion .content {
+    color: #555;
+    padding: 0 10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+}
+
+.accordion input[type="radio"]:checked+label+.content {
+    max-height: 400px;
+    padding: 10px 10px 20px;
+}
+
+.accordion input[type="radio"]:checked+ label::before{
+    content:'-'
+};

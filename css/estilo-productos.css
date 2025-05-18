@@ -1,0 +1,47 @@
+  .productos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+  
+  .producto {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+    width: 30%; /* 3 productos por fila */
+  }
+  
+  .producto img {
+    max-width:100%;
+    height: auto;
+  }
+  
+  .precio {
+    font-weight: bold;
+    color: #f8f8f8;
+    font-size: 25px;
+  }
+
+  #news{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6%;
+  }
+
+  .news-vid{
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 20px rgba(168, 165, 165, 0.2);
+    width: 21.5%; 
+    background-color:  #e8dcec;
+  }
+
+  .news-img{
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 20px rgba(168, 165, 165, 0.2);
+    background-color:  #e8dcec;
+justify-content: center;
+text-align: center;
+  }

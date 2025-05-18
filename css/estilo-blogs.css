@@ -1,0 +1,105 @@
+/*Blogs*/
+.contenido-blog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.tutoriales-container,
+.tips-container {
+    display: flex;
+    gap: 1rem;
+}
+.tip {
+     background-color: #857c7c;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 100%;
+    font-size: 1.13rem;
+}
+
+.tip img {
+    max-width: 100%;
+    height: 210px;
+}
+
+.tutorial {
+    background-color: #857c7c;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 100%;
+    font-size: 1.13rem;
+
+}
+
+.tutorial:hover,.tip:hover {
+    transform: translateY(-3%);
+}
+
+.tutorial img,
+.tip img {
+    max-width: 100%;
+    height: 210px;
+}
+.tutorial img:hover,
+.tip img:hover {
+    opacity: 0.8;
+    border: 1px solid #cbafd6;
+}
+
+.imagen-blogs img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 1%;
+}
+
+.contenido-section {
+    flex: 0 0 85%; /* Ancho variable para las secciones de contenido */
+    margin-bottom: 2rem;
+    margin-left: 9%;
+}
+
+/* Estilos para las listas y enlaces */
+.aside-ul li{
+    margin-bottom: 1rem;
+}
+
+.aside-ul li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 0.1rem;
+    font-size: 18px;
+}
+
+aside a:hover {
+    text-decoration: underline; 
+}
+
+.aside-ul {
+    display: block; 
+    list-style-type: none; 
+    padding: 0;   
+}
+
+#categorias{
+    color: darkmagenta;
+    font-size: 25px;
+    background-color: #cbafd6;
+    border-radius: 5%;
+    text-align: center;
+}
+
+.materialesA{
+    li{
+        color:azure;
+        font-size: 20px;
+    }
+}

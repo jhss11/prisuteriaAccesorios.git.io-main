@@ -1,0 +1,63 @@
+/*estilo del carrusel*/
+.slider-box {
+    width: 500px;
+    height: auto;
+    margin: 50px auto 0;
+    overflow: hidden;
+}
+
+.slider-box ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    width: 500%;
+    animation: slide 15s infinite alternate ease-in-out;
+}
+
+.slider-box li {
+    width: 20%;
+    list-style: none;
+    position: relative;
+    margin: 0;
+    padding: 0;
+
+}
+
+.slider-box img {
+    width: 100%;
+    display: block;
+}
+
+.descripcion a {
+    width: 100%;
+    text-shadow: 1px 1px 1px rgba(47, 47, 47, 0.7);
+    color: black;
+    margin: 10rem auto;
+    padding-left: 0rem;
+    background-color: #cbafd6(255, 255, 255, 0.6);
+    font-size: 22px;
+    padding: 0em;
+    text-decoration: underline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a:hover {
+    color: #cbafd6;
+}
+
+@keyframes slide {
+    0% { margin-left: 0;}
+    15% {margin-left: 0;} 
+
+    20% {margin-left: -100%;}
+    35% {margin-left: -100%;}
+
+    40% {margin-left: -200%;}
+    55% {margin-left: -200%;}
+
+    60% {margin-left: -300%;}
+    75% {margin-left: -300%;}
+
+    80% {margin-left: -400%;}
+    100% {margin-left: -400%;}
+}

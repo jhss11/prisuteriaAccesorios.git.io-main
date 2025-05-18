@@ -1,0 +1,26 @@
+.info-autor {
+    margin-bottom: 2em;
+}
+
+.autor-container {
+    display: flex;
+    box-shadow: 2px 2px 5px;
+}
+
+.autor-container img {
+    max-width: 20em;
+    height: auto;
+    flex-grow: 1;
+}
+
+.autor-content {
+    padding: 0.8em;
+    flex-grow: 2;
+}
+
+h3{
+    font-size: 1.6rem;
+}
+
+
+

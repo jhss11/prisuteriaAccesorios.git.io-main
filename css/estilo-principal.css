@@ -1,0 +1,200 @@
+header {
+    background: linear-gradient(135deg, rgb(29, 27, 28), rgb(240, 72, 136));
+    align-items: center;
+    display: flex;
+    height: 7rem;
+    padding: 10px 30px;
+    width: 100%;
+     position: fixed;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+body{
+    background-color: #000000;
+}
+
+.menu nav {
+    width: 100%;
+    font-size: 1em;
+    line-height: 4em;
+    padding: 5%;
+    top: 0;
+}
+
+.menu nav ul {
+    list-style: none;
+    margin: 110px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.menu nav ul li {
+    margin-left: 10px;
+}
+
+nav a {
+    font-size: 20px;
+    padding: 0.8em;
+    color: white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #cbafd6;
+}
+
+.logo {
+    height: 100%;
+}
+
+.logo img {
+    height: 95%;
+    border-radius: 50%;
+}
+
+
+.contenido {
+    padding: 140px 10px;
+    width: 90%;
+    margin: 0 95px;
+}
+
+
+.footer {
+    background: linear-gradient(135deg, rgb(29, 27, 28), rgb(240, 72, 136));
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 50px;
+}
+
+.social-icons {
+    margin-bottom: 15px;
+}
+
+.icon {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.icon:hover {
+    transform: scale(1.2);
+    opacity: 0.8;
+}
+
+/* Colores específicos para cada red social */
+.facebook:hover { color: #4267B2; }
+.instagram:hover { color: #E4405F; }
+.tiktok:hover { color: #010101; }
+.whatsapp:hover { color: #25D366; }
+
+.rights p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+
+
+
+.social-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #ddd;
+}
+
+.rights {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #fcfcfc;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.9em;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, serif;
+    color: white;
+    margin-top: 45px;
+    padding: 10px;
+    background-image: url(/img/cieloLila.jpg);
+    background-size: cover;
+    font-size: 28px;
+}
+
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+.contenido-section {
+    margin: 0 auto;
+    width: 100%;
+}
+
+ul li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.redirectBtn {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.redirectBtn button {
+    background-color: rgba(240, 72, 136, 0.705);
+    border: none;
+    color: rgb(12, 0, 0);
+    padding: 15px 82px;
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 1px;
+    margin-bottom: -20px;
+    cursor: pointer;
+    border-radius: 12px;
+    width: 40%;
+}
+
+.redirectBtn button:hover {
+    background-color:  #f36198;
+}
+
+
+p{
+    color: #fcfcfc;
+    font-size: 18px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px auto;
+    width: 80%; /* Ajusta según necesites */
+}
