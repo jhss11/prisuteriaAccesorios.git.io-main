@@ -136,7 +136,7 @@ h2 {
     color: white;
     margin-top: 45px;
     padding: 10px;
-    background: #cbafd6;
+    background: linear-gradient(135deg,  rgb(240, 72, 136),rgb(29, 27, 28));
     background-size: cover;
     font-size: 28px;
 }
