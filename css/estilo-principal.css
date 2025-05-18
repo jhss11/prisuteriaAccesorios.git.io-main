@@ -136,7 +136,7 @@ h2 {
     color: white;
     margin-top: 45px;
     padding: 10px;
-    background-image: url(/img/cieloLila.jpg);
+    background-image: url(./img/cieloLila.jpg);
     background-size: cover;
     font-size: 28px;
 }
